@@ -1,0 +1,62 @@
+/**
+ * Frontend Styles – One Paper MCQS Maker
+ * Author: Shahid Hussain Soomro
+ */
+
+.mcq-question-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.mcq-option {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.mcq-option:hover {
+  background-color: #eef5ff;
+}
+
+#correct-answer-popup {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  width: 90%;
+  max-width: 500px;
+  background: white;
+  border: 2px solid #4CAF50;
+  padding: 20px;
+  z-index: 10000;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+#correct-answer-popup h2 {
+  color: #4CAF50;
+  margin-top: 0;
+}
+
+#close-popup {
+  float: right;
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+}
+
+#exam-timer {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffe0e0;
+  padding: 8px 15px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 20px;
+}

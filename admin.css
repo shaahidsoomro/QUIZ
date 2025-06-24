@@ -1,0 +1,54 @@
+/**
+ * Admin Styles – One Paper MCQS Maker
+ * Author: Shahid Hussain Soomro
+ */
+
+.mcq-admin-wrap {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.mcq-admin-wrap h1,
+.mcq-admin-wrap h2 {
+  color: #0073aa;
+}
+
+.mcq-admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.mcq-admin-table th,
+.mcq-admin-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.mcq-admin-table th {
+  background-color: #f1f1f1;
+}
+
+.mcq-button {
+  display: inline-block;
+  padding: 6px 14px;
+  background-color: #0073aa;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.mcq-button:hover {
+  background-color: #005177;
+}
+
+.mcq-alert {
+  padding: 12px;
+  background-color: #e7f4e4;
+  border: 1px solid #bde5b8;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
